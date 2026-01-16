@@ -7,7 +7,6 @@ const AppLayout = () => {
     <div className={styles.app}>
       <Sidebar />
       <Map />
-      Pogi si kenneth
     </div>
   );
 };
