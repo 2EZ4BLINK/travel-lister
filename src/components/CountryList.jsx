@@ -6,8 +6,6 @@ const CountryList = (props) => {
 
   if (isLoading) return <Spinner />;
 
-  console.log("cities: ", cities);
-
   const countries = cities.reduce((arr, city) => {
     const cityArray = arr.map((i) => i.country);
 
@@ -26,7 +24,7 @@ const CountryList = (props) => {
   return (
     <ul className={styles.countryList}>
       {(countries || []).map((country) => (
-        <CountryItem country={country} />
+        <CountryItem country={country} key={country.country} />
       ))}
     </ul>
   );
