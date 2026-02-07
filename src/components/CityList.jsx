@@ -1,7 +1,5 @@
 import styles from "./CityList.module.css";
-import Spinner from "./Spinner";
-import CityItem from "./CityItem";
-import Message from "./Message";
+import { CityItem, Spinner, Message } from "../components";
 
 const CityList = (props) => {
   const { cities, isLoading } = props;

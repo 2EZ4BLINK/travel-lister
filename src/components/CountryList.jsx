@@ -1,7 +1,5 @@
 import styles from "./CountryList.module.css";
-import Spinner from "./Spinner";
-import CountryItem from "./CountryItem";
-import Message from "./Message";
+import { CountryItem, Spinner, Message } from "../components";
 
 const CountryList = (props) => {
   const { cities, isLoading } = props;
