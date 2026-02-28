@@ -13,6 +13,7 @@ export { default as Sidebar } from "./Sidebar";
 export { default as Spinner } from "./Spinner";
 export { default as SpinnerFullPage } from "./SpinnerFullPage";
 export { default as User } from "./User";
+export { default as BackButton } from "./BackButton";
 
 // UI
 export { default as Button } from "./ui/Button";
